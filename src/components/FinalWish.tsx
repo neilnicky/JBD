@@ -25,17 +25,17 @@ export default function FinalWish() {
         src="/kunju.jpg"
         width={768}
         height={768}
-        className="w-32"
+        className="w-32 rounded-2xl"
         onClick={handleClick}
       />
-      {showText ? (
+      {/* {showText ? (
         <p className="text-sm italic mt-4 text-center">
           We may no longer be together, but you will forever have a special place
           in my heart.
         </p>
       ) : (
         ""
-      )}
+      )} */}
       <p className="text-gray-200 mt-16 font-medium">
         <span className="text-red-600 font-semibold"> Next Year.</span> Same
         Day.<span className="text-red-600 font-semibold"> Same Place</span>
