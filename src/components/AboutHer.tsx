@@ -14,7 +14,7 @@ export default function AboutHer() {
         life has to offer. Happy birthday to someone who holds a special place
         in my heart—may life treat you as kindly as you’ve treated those around
         you. You <span className="text-red-500">deserve</span> nothing less than
-        a lifetime of happiness, today and always.
+        a lifetime of happiness, today and <span className="text-red-500">always</span>.
       </h2>
     </div>
   );
