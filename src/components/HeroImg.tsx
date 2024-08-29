@@ -20,7 +20,7 @@ export function ImagesSliderDemo() {
     }
   };
   return (
-    <ImagesSlider className="h-[40rem] " images={images}>
+    <ImagesSlider className="h-[50rem] " images={images}>
       <motion.div
         initial={{
           opacity: 0,
@@ -39,9 +39,12 @@ export function ImagesSliderDemo() {
           Happy Birthday <br /> Jenny!
         </motion.p>
         <audio ref={audioRef} src="/so beautiful, with you.mp3" />
-        <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
-          <span onClick={handlePlay}>Play Song</span>
-          <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
+
+        <button
+          onClick={handlePlay}
+          className="px-[10px] py-[6px] text-[0.6em] font-semibold md:px-4 md:py-2 md:text-[0.75em] rounded-full text-[#fff6fb] tracking-[0.2em] text-shadow-md bg-transparent border-2 border-emerald-500/20 shadow-[0_0_0px_1px_#10B981,0_0_10px_1px_#10B981,inset_0_0_0px_1px_#10B981,inset_0_0_10px_1px_#10B981] transition-all duration-100 hover:shadow-[0_0_0px_1px_#10B981,0_0_10px_2px_#10B981,inset_0_0_0px_1px_#10B981,inset_0_0_30px_2px_#10B981] hover:text-shadow-[0_0_10px_#10B981] hover:-translate-y-1 active:shadow-[0_0_0px_1px_#10B981,0_0_25px_1px_#10B981,inset_0_0_0px_1px_#10B981,inset_0_0_30px_1px_#10B981] active:translate-y-[1px]"
+        >
+          PLAY SONG
         </button>
       </motion.div>
     </ImagesSlider>
