@@ -14,7 +14,7 @@ export default function FinalWish() {
     <div className="flex flex-col justify-center items-center my-6">
       {showText ? (
         <p className="text-sm italic mb-4 px-2 text-center">
-          "To fall in love was awfully simple, but to fall out of love was simply awful."
+          &quot;To fall in love was awfully simple, but to fall out of love was simply awful.&quot;
         </p>
       ) : (
         ""
